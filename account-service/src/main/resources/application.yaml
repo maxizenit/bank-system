@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  jpa:
+    database: postgresql
+  datasource:
+    url: jdbc:postgresql://postgres:5432/account-service-db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  rabbitmq:
+    host: rabbitmq
+    username: rabbitmq
+    password: rabbitmq
+
+jwt:
+  secret: secret

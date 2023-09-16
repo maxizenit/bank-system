@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.maxizenit'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
